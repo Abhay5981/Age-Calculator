@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: bisque;
+
+}
+.container {
+    background-color: white;
+    height: 450px;
+    width: 450px;
+    box-shadow: 0 0 4px 1px rgb(176, 174, 174);
+    border: 2px solid black;
+    border-bottom-right-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container h1 {
+    color: rgb(17, 9, 71);
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.date-container label {
+    font-size: larger;
+    margin-right: 10px;
+
+}
+#birthDate, #currentDate {
+
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: larger;
+}
+#calculatorBtn {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: larger;
+    margin-left: 115px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s; 
+    box-shadow: 1px 3px 3px rgb(175, 175, 146);
+    color: blueviolet;
+}
+#calculator :active {
+    box-shadow: 0 0 0 0;
+}
