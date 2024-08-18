@@ -10,8 +10,8 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: bisque;
-
 }
+
 .container {
     background-color: white;
     height: 450px;
@@ -22,21 +22,26 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    padding: 20px;
 }
+
 .container h1 {
     color: rgb(17, 9, 71);
     margin: 10px;
     font-size: 20px;
     font-weight: bolder;
 }
+
+.date-container {
+    margin-bottom: 15px;
+}
+
 .date-container label {
     font-size: larger;
     margin-right: 10px;
-
 }
-#birthDate, #currentDate {
 
+#birthDate, #currentDate {
     width: 150px;
     height: 50px;
     margin-top: 10px;
@@ -44,20 +49,28 @@ body {
     border-radius: 5px;
     font-size: larger;
 }
-#calculatorBtn {
+
+#calculateBtn {
     width: 150px;
     height: 50px;
     margin-top: 20px;
     font-size: larger;
-    margin-left: 115px;
     border-radius: 5px;
     border: none;
     outline: none;
     cursor: pointer;
-    transition: 0.3s; 
+    transition: 0.3s;
     box-shadow: 1px 3px 3px rgb(175, 175, 146);
     color: blueviolet;
 }
-#calculator :active {
+
+#calculatorBtn:active {
     box-shadow: 0 0 0 0;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(17, 9, 71);
 }
